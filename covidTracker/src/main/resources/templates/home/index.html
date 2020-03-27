@@ -1,0 +1,368 @@
+<div th:replace="shared/header"></div>
+
+
+<div class="nav-tabs-custom">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#activity" data-toggle="tab" aria-expanded="true">Activity</a></li>
+              <li class=""><a href="#timeline" data-toggle="tab" aria-expanded="false">Timeline</a></li>
+              
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane active" id="activity">
+                <!-- Post -->
+               <ul class="timeline timeline-inverse">
+                  <!-- timeline time label -->
+                  <li class="time-label">
+                        <span class="bg-red getdate">
+                         
+                        </span>
+                  </li>
+                  <!-- /.timeline-label -->
+                  <!-- timeline item -->
+                  <li>
+                    <i class="fa fa-bolt bg-blue"></i>
+
+                    <div class="timeline-item ">
+                      <span class="time"><i class="fa fa-clock-o"></i></span>
+
+                      <h3 class="timeline-header"><a href="#">NEPAL UPDATES</a></h3>
+
+                      <div class="timeline-body row">
+                          <div class=" col-md-4">
+                          <div class="info-box bg-green"style="width: 350px">
+                              <span class="info-box-icon"><span><h1 class="confirmed"></h1></span></span>
+
+            <div class="info-box-content">
+                <span class="info-box-text"><b>CONFIRMED CASES</b></span>
+              <span class="info-box-number">NEPAL</span>
+
+              <div class="progress">
+                <div class="progress-bar" style="width: 70%"></div>
+              </div>
+                  <span class="progress-description">
+                    Last updates: <span class="update"></span>
+                  </span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+                          <div class="info-box bg-blue"style="width: 350px">
+                              <span class="info-box-icon"><span><h1 class="recovered"></h1></span></span>
+
+            <div class="info-box-content">
+                <span class="info-box-text"><b>RECOVERED</b></span>
+              <span class="info-box-number">NEPAL</span>
+
+              <div class="progress">
+                <div class="progress-bar" style="width: 70%"></div>
+              </div>
+                  <span class="progress-description">
+                      Last updates:<span class="update"></span>
+                  </span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+                          <div class="info-box bg-red " style="width: 350px;">
+                              <span class="info-box-icon"><span><h1 class="deaths"></h1></span></i></span>
+
+            <div class="info-box-content">
+                <span class="info-box-text"><b>DEATHS</b></span>
+              <span class="info-box-number">NEPAL</span>
+
+              <div class="progress">
+                <div class="progress-bar" style="width: 70%"></div>
+              </div>
+                  <span class="progress-description">
+                     Last updates: <span class="update"></span>
+                  </span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+                          </div>         
+          <!-- /.info-box -->
+       <div class="col-md-8">
+          <div class="box box-success">
+            <div class="box-header with-border">
+              <h3 class="box-title"></h3>
+
+              <div class="box-tools ">
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+             <div class="col-md-12">
+          <!-- Widget: user widget style 1 -->
+          <div class="box box-widget widget-user">
+            <!-- Add the bg color to the header using any of the bg-* classes -->
+            <div class="widget-user-header bg-sky-active">
+                <h3 class="widget-user-username"><b>WORLD STATICS</b></h3>
+                <h5 class="widget-user-desc"><b>Last updates:</b><span class="update"></span></h5>
+            </div>
+            <div class="widget-user-image">
+                <img src="/img/flagsofworld2.jpg" style="width: 380px; position: absolute; height:130px; border-radius: 5px;
+                     bottom:-55px;" alt="User Avatar">
+            </div>
+            <div class="box-footer">
+              <div class="row">
+                <div class="col-sm-4 border-right bg-green">
+                  <div class="description-block">
+                    <h5 class="description-header w-confirmed"></h5>
+                    <span class="description-text"><b>CONFIRMED</b></span>
+                  </div>
+                  <!-- /.description-block -->
+                </div>
+                <!-- /.col -->
+                <div class="col-sm-4 border-right bg-red">
+                  <div class="description-block">
+                    <h5 class="description-header w-deaths"></h5>
+                    <span class="description-text"><b>DEATHS</b></span>
+                  </div>
+                  <!-- /.description-block -->
+                </div>
+                <!-- /.col -->
+                <div class="col-sm-4 bg-blue">
+                  <div class="description-block">
+                    <h5 class="description-header w-recovered"></h5>
+                    <span class="description-text"><b>RECOVERED</b></span>
+                  </div>
+                  <!-- /.description-block -->
+                </div>
+                <!-- /.col -->
+              </div>
+              <!-- /.row -->
+            </div>
+          </div>
+          <!-- /.widget-user -->
+        </div>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+                      </div>
+                     
+                    </div>
+                  </li>
+                  <!-- END timeline item -->
+                  <!-- timeline item -->
+                  <li>
+                    <i class="fa fa-user bg-aqua"></i>
+
+                    <div class="timeline-item">
+                      <span class="time"><i class="fa fa-clock-o"></i> 5 mins ago</span>
+
+                      <h3 class="timeline-header no-border"><a href="#">Sarah Young</a> accepted your friend request
+                      </h3>
+                    </div>
+                  </li>
+                  <!-- END timeline item -->
+                  <!-- timeline item -->
+                  <li>
+                    <i class="fa  fa-stethoscope bg-yellow"></i>
+
+                    <div class="timeline-item">
+                      <span class="time"><i class="fa fa-clock-o"></i> 27 mins ago</span>
+
+                      <h3 class="timeline-header"><a href="#">PREVENTIONS</a></h3>
+
+                      <div class="timeline-body" >
+                       <img src="/img/prevention1.jpg"  style="height: 150px"alt="..." class="margin">
+                       <img src="/img/prevention2.jpg"  style="height: 150px"alt="..." class="margin">
+                       <img src="/img/prevention3.jpg"  style="height: 150px"alt="..." class="margin">
+                       <img src="/img/prevention4.jpg"  style="height: 150px"alt="..." class="margin">
+                      
+                      </div>
+                      
+                    </div>
+                  </li>
+                  <!-- END timeline item -->
+                  <!-- timeline time label -->
+                  <li class="time-label">
+                        <span class="bg-green">
+                          3 Jan. 2014
+                        </span>
+                  </li>
+                  <!-- /.timeline-label -->
+                  <!-- timeline item -->
+                  <li>
+                    <i class="fa fa-heartbeat bg-purple"></i>
+
+                    <div class="timeline-item" style="width: 600px">
+                      <span class="time"><i class="fa fa-clock-o"></i> 2 days ago</span>
+
+                      <h3 class="timeline-header"><a href="#">SYMPTOMS OF COVID-19</a></h3>
+
+                      <div class="timeline-body">
+                          <img src="/img/covid-19-symptoms1.png"  style="height: 150px"alt="..." class="margin">
+                        <img src="/img/covid-19-symptoms2.png"  style="height: 150px" alt="..." class="margin">
+                        <img src="/img/covid-19-symptoms3.png"  style="height: 150px"alt="..." class="margin">
+                       
+                      </div>
+                    </div>
+                  </li>
+                  <!-- END timeline item -->
+                  <li>
+                    <i class="fa fa-clock-o bg-gray"></i>
+                  </li>
+                </ul>
+                <!-- /.post -->
+              </div>
+              <!-- /.tab-pane -->
+              <div class="tab-pane" id="timeline">
+                <!-- The timeline -->
+               
+              </div>
+              <!-- /.tab-pane -->
+
+            
+              <!-- /.tab-pane -->
+            </div>
+            <!-- /.tab-content -->
+          </div>
+
+<div class="container">
+    
+   <div class="table-responsive">
+    
+    <br />
+    
+    <br />
+    <div id="employee_table" style="background-color: white;">
+    </div>
+   </div>
+  </div>
+<div th:replace="shared/footer"></div>
+
+<script>
+$(document).ready(function(){
+ 
+  $.ajax({
+   url:"https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv",
+   dataType:"text",
+   success:function(data)
+   {
+    var employee_data = data.split(/\r?\n|\r/);
+    var table_data = '<table class="table table-bordered table-hover table-striped">';
+    for(var count = 0; count<employee_data.length; count++)
+    {
+     var cell_data = employee_data[count].split(",");
+     table_data += '<tr>';
+     for(var cell_count=0; cell_count<cell_data.length; cell_count++)
+     {
+      if(count === 0)
+      {
+       table_data += '<th>'+cell_data[cell_count]+'</th>';
+      }
+      else
+      {
+       table_data += '<td>'+cell_data[cell_count]+'</td>';
+      }
+     }
+     table_data += '</tr>';
+    }
+    table_data += '</table>';
+    $('#employee_table').html(table_data);
+   }
+  });
+ 
+ 
+ 
+ var settings = {
+	"async": true,
+	"crossDomain": true,
+	"url": "https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/stats?country=Nepal",
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-host": "covid-19-coronavirus-statistics.p.rapidapi.com",
+		"x-rapidapi-key": "cf55012259msha2d179347a2a12ep188b1fjsn3ca6be42e5c7"
+	}
+}
+
+var confirmed,deaths,recorvered,update;
+$.ajax(settings).done(function (response) {
+	
+        var $data=response.data.covid19Stats;
+       
+        $.each($data, function (index, row){
+            console.log(row.confirmed);
+            confirmed=row.confirmed;
+            deaths=row.deaths;
+           recorvered=row.recovered;
+           update=row.lastUpdate;
+           
+        })
+         $(".confirmed").html(confirmed);
+         $(".recovered").html(recorvered);
+         $(".deaths").html(deaths);
+         $(".update").html(update);
+        
+        
+});
+
+var settings = {
+	"async": true,
+	"crossDomain": true,
+	"url": "https://covid-19-data.p.rapidapi.com/totals?format=json",
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-host": "covid-19-data.p.rapidapi.com",
+		"x-rapidapi-key": "cf55012259msha2d179347a2a12ep188b1fjsn3ca6be42e5c7"
+	}
+}
+
+var wconfirmed,wrecovered,wdeaths;
+$.ajax(settings).done(function (response) {
+	console.log(response);
+        var worlddata=response;
+        $.each(worlddata, function (index, row){
+            console.log(row.confirmed);
+            wconfirmed=row.confirmed;
+            wrecovered=row.recovered;
+            wdeaths=row.deaths;
+        })
+        $(".w-confirmed").html(wconfirmed);
+        $(".w-deaths").html(wdeaths);
+        $(".w-recovered").html(wrecovered);
+});
+var d=new Date();
+ $(".getdate").html(new Date());
+ $(".time").html(d.getHours()+":"+d.getMinutes());
+
+
+//search
+ $(document).ready(function (){
+      // Create a render function
+const renderSearchBox = (renderOptions, isFirstRender) => {
+  const { query, refine, clear, isSearchStalled, widgetParams } = renderOptions;
+
+  if (isFirstRender) {
+    const input = document.createElement('input');
+
+    const loadingIndicator = document.createElement('span');
+    loadingIndicator.textContent = 'Loading...';
+
+    const button = document.createElement('button');
+    button.textContent = 'X';
+
+    input.addEventListener('input', event => {
+      refine(event.target.value);
+    });
+
+    button.addEventListener('click', () => {
+      clear();
+    });
+
+    widgetParams.container.appendChild(input);
+    widgetParams.container.appendChild(loadingIndicator);
+    widgetParams.container.appendChild(button);
+  }
+
+  widgetParams.container.querySelector('input').value = query;
+  widgetParams.container.querySelector('span').hidden = !isSearchStalled;
+};
+
+    })
+
+});
+</script>
